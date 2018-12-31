@@ -16,6 +16,12 @@ Including another URLconf
 
 from django.conf.urls import include, url
 from django.contrib import admin
+
+# class AccessUser:
+#     has_module_perms = has_perm = __getattr__ = lambda s,*a,**kw: True
+#
+# admin.site.has_permission = lambda r: setattr(r, 'user', AccessUser()) or True
+
 from polls import  views
 urlpatterns = [
     url(r'^polls/', include('polls.urls', namespace='polls')),

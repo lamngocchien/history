@@ -8,17 +8,17 @@ import logging
 import json
 logger = logging.getLogger(__name__)
 from django.http import HttpResponse
-from utils.filter import custom_login_required
+from utils.filter import custom_login_required, get_templates_path
 from polls.models import *
 from django.shortcuts import render
 
 
-@custom_login_required
+# @custom_login_required
 def index(request):
     logger.debug("=================LOGIN=OK=================")
     return HttpResponse("Hello, world. You're at the polls index.")
 
-@custom_login_required
+# @custom_login_required
 def home(request):
     data = Choice()._get_data(choice_text__in=['Bad','Good'])
     for i in data:
@@ -53,6 +53,8 @@ def highchart_api(request):
 
 def highchart(request):
     # return HttpResponse("Highchart Demo")
-    page = "C:/Python27/Scripts/mysite/templates/polls/highchart.html"
+
+    # page = "C:/Python27/Scripts/mysite/templates/polls/highchart.html"
+    page = get_templates_path('templates/polls/highchart.html')
     # logger.debug(page)
     return render(request, page, {})
