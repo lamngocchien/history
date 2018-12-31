@@ -40,4 +40,21 @@ def login_success(f):
     return wrap
 
 
+# Fix TemplateDoesNotExist on Win 7
 
+def get_templates_path(page):
+    import os
+    # import json
+    # config_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__),'..', '..', 'config', 'config.json'))
+    # logger.debug('config_file_path: ', config_file_path)
+    # try:
+    #     with open(config_file_path) as data_file:
+    #         data = json.load(data_file)
+    #         django_app_data = data["application"]
+    #         project_dir_name = django_app_data["project_dir_name"]
+    #         path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', '..', project_dir_name))
+    # except:
+    #     logger.debug("No config/config.json file")
+    path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+    path = path.replace('\\', '/') + '/' + page
+    return path
