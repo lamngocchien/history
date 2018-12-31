@@ -16,7 +16,10 @@ from django.shortcuts import render
 # @custom_login_required
 def index(request):
     logger.debug("=================LOGIN=OK=================")
-    return HttpResponse("Hello, world. You're at the polls index.")
+    # return HttpResponse("Hello, world. You're at the polls index.")
+    page = get_templates_path('templates/sb_admin/base.html')
+    # logger.debug(page)
+    return render(request, page, {})
 
 # @custom_login_required
 def home(request):
@@ -34,6 +37,7 @@ def home(request):
 def demo(request,pk,id):
     logger.debug('PK: %s ID: %s',pk,id)
     return HttpResponse("Hello, world. You're at the polls Home. PK:"+str(pk)+" ID:"+str(id))
+
 def highchart_api(request):
     data = [{
         'name': 'Year 1800',
@@ -58,3 +62,6 @@ def highchart(request):
     page = get_templates_path('templates/polls/highchart.html')
     # logger.debug(page)
     return render(request, page, {})
+
+
+# fp = open(unicode(path2, "utf-8"))

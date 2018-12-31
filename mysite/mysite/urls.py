@@ -24,7 +24,7 @@ from django.contrib import admin
 
 from polls import  views
 urlpatterns = [
-    url(r'^polls/', include('polls.urls', namespace='polls')),
+    url(r'^core/', include('polls.urls', namespace='polls')),
     url(r'^', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
     # url(r'^$', views.home,),

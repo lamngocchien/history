@@ -157,8 +157,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
+STATIC_PATH = os.path.join(BASE_DIR,'static')
 
+STATIC_URL = '/static/' # You may find this is already defined as such.
+
+STATICFILES_DIRS = (
+    STATIC_PATH,
+)
+
+
+# Logging Seting
 import sys
 LOGGING = {
     'version': 1,
@@ -206,7 +215,6 @@ LOGGING = {
 }
 
 
-DEBUG_TEMPLATE = True
-
-for i in range(0, len(TEMPLATES) - 1):
-    TEMPLATES[i]['OPTIONS']['debug'] = DEBUG_TEMPLATE
+# DEBUG_TEMPLATE = True
+# for i in range(0, len(TEMPLATES) - 1):
+#     TEMPLATES[i]['OPTIONS']['debug'] = DEBUG_TEMPLATE
