@@ -6,7 +6,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">CorePyTools V1.0</a>
+                <a class="navbar-brand" href="#">CorePyTool</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -26,7 +26,7 @@
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="/admin"><i class="fa fa-database fa-fw"></i> Management</a>
+                            <a href="/admin"><i class="fa fa-database fa-fw"></i> Database</a>
                         </li>
                         <li>
                             <a href="{% url 'polls:load_page' 'index' %}"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
@@ -35,11 +35,11 @@
                             <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="{% url 'polls:load_page' 'flot' %}">Flot Charts</a>
+                                    <a href="{% url 'polls:load_page' 'highcharts' %}">Highchart Charts</a>
                                 </li>
-                                <li>
-                                    <a href="{% url 'polls:load_page' 'morris' %}">Morris.js Charts</a>
-                                </li>
+{#                                <li>#}
+{#                                    <a href="{% url 'polls:load_page' 'morris' %}">Morris.js Charts</a>#}
+{#                                </li>#}
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>

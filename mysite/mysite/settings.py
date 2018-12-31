@@ -26,7 +26,7 @@ SECRET_KEY = 'bfkeb55k$cau#+nwf_z4s7l1)r13rv=8rhb4uclxiznlvj=wt5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["127.0.0.1", "*"]
 
 
 # Application definition
@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'polls',
+    # 'polls',
+    'polls.apps.PollsConfig',
 
 ]
 
@@ -51,12 +52,19 @@ TEMPLATE_CONTEXT_PROCESSORS = TCP + (
 
 # Django Suit configuration example
 SUIT_CONFIG = {
+    'ADMIN_NAME': 'DATABASE',
+    'HEADER_DATE_FORMAT': 'l, j. F Y',
+    'HEADER_TIME_FORMAT': 'H:i',
+    'SHOW_REQUIRED_ASTERISK': True,
+    'CONFIRM_UNSAVED_CHANGES': True,
+    'MENU_EXCLUDE': ('auth.group',),
+    'MENU_OPEN_FIRST_CHILD': True,
     'MENU': (
 
         # Keep original label and models
 
         {'label': 'Dashboard', 'icon':'icon-cog', 'url': '/'},
-        'sites',
+        # 'sites',
         # Rename app and set icon
         {'app': 'auth', 'label': 'Authorization', 'icon':'icon-lock'},
 
