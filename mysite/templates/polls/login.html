@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet" id="bootstrap-css">
+ <style type="text/css">
+    *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body{
+	font-family: 'Century Gothic', sans-serif !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+	background: url(http://www.artnak.net/upload/2018/08/23/6f10caa9122ef563.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+canvas{
+    background-color: transparent;
+}
+
+.card{
+height: 345px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+.card-header h3{
+color: white;
+}
+.input-group-prepend span{
+width: 40px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+    </style>
+
+
+</head>
+<body>
+
+<div class="container" >
+	<div class="d-flex justify-content-center h-100" style="padding-top: 300px;">
+		<div class="card" style="padding-top: 0px;">
+			<div class="card-header">
+				<h3 style="font-size: 40px;">SCMS</h3>
+				<div class="d-flex justify-content-end social_icon">
+
+				</div>
+			</div>
+			<div class="card-body">
+				<form role="login" action="{% url 'polls:login' %}?next={{ next }}" method="post" id="form">
+                            {% csrf_token %}
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-user"></i></span>
+						</div>
+						<input name="username" type="text" class="form-control" placeholder="username">
+
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fa fa-key"></i></span>
+						</div>
+						<input name="password"  type="password" class="form-control" placeholder="password">
+					</div>
+					<div class="row align-items-center remember">
+						<input type="checkbox">Remember Me
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Login" class="btn float-right login_btn">
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center links">
+					Contact to Administrator
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<canvas id="nokey" width="120%" height="120%" style="margin-top:-645px; margin-left: -36%; margin-right: -90%;"></canvas>
+</div>
+
+
+	<script type="text/javascript">
+	var canvas = document.getElementById('nokey'),
+   can_w = parseInt(canvas.getAttribute('width')),
+   can_h = parseInt(canvas.getAttribute('height')),
+   ctx = canvas.getContext('2d');
+
+// console.log(typeof can_w);
+
+var ball = {
+      x: 0,
+      y: 0,
+      vx: 0,
+      vy: 0,
+      r: 0,
+      alpha: 1,
+      phase: 0
+   },
+   ball_color = {
+       r: 207,
+       g: 255,
+       b: 4
+   },
+   R = 9,
+   balls = [],
+   alpha_f = 0.03,
+   alpha_phase = 0,
+
+// Line
+   link_line_width = 2,
+   dis_limit = 260,
+   add_mouse_point = true,
+   mouse_in = false,
+   mouse_ball = {
+      x: 0,
+      y: 0,
+      vx: 0,
+      vy: 0,
+      r: 0,
+      type: 'mouse'
+   };
+
+// Random speed
+function getRandomSpeed(pos){
+    var  min = -1,
+       max = 1;
+    switch(pos){
+        case 'top':
+            return [randomNumFrom(min, max), randomNumFrom(0.1, max)];
+            break;
+        case 'right':
+            return [randomNumFrom(min, -0.1), randomNumFrom(min, max)];
+            break;
+        case 'bottom':
+            return [randomNumFrom(min, max), randomNumFrom(min, -0.1)];
+            break;
+        case 'left':
+            return [randomNumFrom(0.1, max), randomNumFrom(min, max)];
+            break;
+        default:
+            return;
+            break;
+    }
+}
+function randomArrayItem(arr){
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+function randomNumFrom(min, max){
+    return Math.random()*(max - min) + min;
+}
+console.log(randomNumFrom(0, 10));
+// Random Ball
+function getRandomBall(){
+    var pos = randomArrayItem(['top', 'right', 'bottom', 'left']);
+    switch(pos){
+        case 'top':
+            return {
+                x: randomSidePos(can_w),
+                y: -R,
+                vx: getRandomSpeed('top')[0],
+                vy: getRandomSpeed('top')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+        case 'right':
+            return {
+                x: can_w + R,
+                y: randomSidePos(can_h),
+                vx: getRandomSpeed('right')[0],
+                vy: getRandomSpeed('right')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+        case 'bottom':
+            return {
+                x: randomSidePos(can_w),
+                y: can_h + R,
+                vx: getRandomSpeed('bottom')[0],
+                vy: getRandomSpeed('bottom')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+        case 'left':
+            return {
+                x: -R,
+                y: randomSidePos(can_h),
+                vx: getRandomSpeed('left')[0],
+                vy: getRandomSpeed('left')[1],
+                r: R,
+                alpha: 1,
+                phase: randomNumFrom(0, 10)
+            }
+            break;
+    }
+}
+function randomSidePos(length){
+    return Math.ceil(Math.random() * length);
+}
+
+// Draw Ball
+function renderBalls(){
+    Array.prototype.forEach.call(balls, function(b){
+       if(!b.hasOwnProperty('type')){
+           ctx.fillStyle = 'rgba('+ball_color.r+','+ball_color.g+','+ball_color.b+','+b.alpha+')';
+           ctx.beginPath();
+           ctx.arc(b.x, b.y, R, 0, Math.PI*2, true);
+           ctx.closePath();
+           ctx.fill();
+       }
+    });
+}
+
+// Update balls
+function updateBalls(){
+    var new_balls = [];
+    Array.prototype.forEach.call(balls, function(b){
+        b.x += b.vx;
+        b.y += b.vy;
+
+        if(b.x > -(50) && b.x < (can_w+50) && b.y > -(50) && b.y < (can_h+50)){
+           new_balls.push(b);
+        }
+
+        // alpha change
+        b.phase += alpha_f;
+        b.alpha = Math.abs(Math.cos(b.phase));
+        // console.log(b.alpha);
+    });
+
+    balls = new_balls.slice(0);
+}
+
+// loop alpha
+function loopAlphaInf(){
+
+}
+
+// Draw lines
+function renderLines(){
+    var fraction, alpha;
+    for (var i = 0; i < balls.length; i++) {
+        for (var j = i + 1; j < balls.length; j++) {
+
+           fraction = getDisOf(balls[i], balls[j]) / dis_limit;
+
+           if(fraction < 1){
+               alpha = (1 - fraction).toString();
+
+               ctx.strokeStyle = 'rgba(150,150,150,'+alpha+')';
+               ctx.lineWidth = link_line_width;
+
+               ctx.beginPath();
+               ctx.moveTo(balls[i].x, balls[i].y);
+               ctx.lineTo(balls[j].x, balls[j].y);
+               ctx.stroke();
+               ctx.closePath();
+           }
+        }
+    }
+}
+
+// calculate distance between two points
+function getDisOf(b1, b2){
+    var  delta_x = Math.abs(b1.x - b2.x),
+       delta_y = Math.abs(b1.y - b2.y);
+
+    return Math.sqrt(delta_x*delta_x + delta_y*delta_y);
+}
+
+// add balls if there a little balls
+function addBallIfy(){
+    if(balls.length < 30){
+        balls.push(getRandomBall());
+    }
+}
+
+// Render
+function render(){
+    ctx.clearRect(0, 0, can_w, can_h);
+
+    renderBalls();
+
+    renderLines();
+
+    updateBalls();
+
+    addBallIfy();
+
+    window.requestAnimationFrame(render);
+}
+
+// Init Balls
+function initBalls(num){
+    for(var i = 1; i <= num; i++){
+        balls.push({
+            x: randomSidePos(can_w),
+            y: randomSidePos(can_h),
+            vx: getRandomSpeed('top')[0],
+            vy: getRandomSpeed('top')[1],
+            r: R,
+            alpha: 1,
+            phase: randomNumFrom(0, 10)
+        });
+    }
+}
+// Init Canvas
+function initCanvas(){
+    canvas.setAttribute('width', window.innerWidth);
+    canvas.setAttribute('height', window.innerHeight);
+
+    can_w = parseInt(canvas.getAttribute('width'));
+    can_h = parseInt(canvas.getAttribute('height'));
+}
+window.addEventListener('resize', function(e){
+    console.log('Window Resize...');
+    initCanvas();
+});
+
+function goMovie(){
+    initCanvas();
+    initBalls(20);
+    window.requestAnimationFrame(render);
+}
+goMovie();
+
+// Mouse effect
+canvas.addEventListener('mouseenter', function(){
+    console.log('mouseenter');
+    mouse_in = true;
+    balls.push(mouse_ball);
+});
+canvas.addEventListener('mouseleave', function(){
+    console.log('mouseleave');
+    mouse_in = false;
+    var new_balls = [];
+    Array.prototype.forEach.call(balls, function(b){
+        if(!b.hasOwnProperty('type')){
+            new_balls.push(b);
+        }
+    });
+    balls = new_balls.slice(0);
+});
+canvas.addEventListener('mousemove', function(e){
+    var e = e || window.event;
+    mouse_ball.x = e.pageX;
+    mouse_ball.y = e.pageY;
+    // console.log(mouse_ball);
+});
+
+	</script>
+</body>
+</html>

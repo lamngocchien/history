@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Django Highcharts Example</title>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="https://code.highcharts.com/highcharts.src.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+      var data, cata;
+      $.getJSON('http://127.0.0.1/polls/highchart/api/', function(data_list) {
+            data = data_list[0];
+            cata = data_list[1];
+            console.log('data')
+            console.log(data)
+            myFunction(data,cata);
+      });
+      function myFunction(data, cata) {
+          Highcharts.chart('container', {
+              chart: {
+                  type: 'spline'
+              },
+              title: {
+                  text: 'Historic World Population by Region'
+              },
+              xAxis: {
+                  categories: cata,
+              },
+              series: data,
+          });
+      }
+  </script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+[1231/133121.886:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133121.886:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133121.886:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133121.886:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133121.886:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=62788 --disable-gpu-shader-disk-cache run.py
+
+[1231/133133.789:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133133.789:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133133.789:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133133.789:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133133.789:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=54582 --disable-gpu-shader-disk-cache run.py
+
+[1231/133201.687:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133201.687:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133201.687:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133201.687:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133201.687:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=62629 --disable-gpu-shader-disk-cache run.py
+
+[1231/133208.039:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133208.040:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133208.040:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133208.041:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133208.041:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=53791 --disable-gpu-shader-disk-cache run.py
+
+[1231/133214.568:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133214.569:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133214.570:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133214.570:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133214.570:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=61693 --disable-gpu-shader-disk-cache run.py
+
+[1231/133249.623:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133249.624:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133249.624:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133249.625:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133249.625:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=59204 --disable-gpu-shader-disk-cache run.py
+
+[1231/133624.642:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133624.643:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133624.643:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133624.644:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133624.644:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=60190 --disable-gpu-shader-disk-cache run.py
+
+[1231/133659.429:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133659.430:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133659.430:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133659.431:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133659.431:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=64219 --disable-gpu-shader-disk-cache run.py
+
+[1231/133708.577:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133708.578:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133708.578:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133708.579:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133708.579:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=57921 --disable-gpu-shader-disk-cache run.py
+
+[1231/133735.708:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133735.709:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133735.709:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133735.710:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133735.710:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=59713 --disable-gpu-shader-disk-cache run.py
+
+[1231/133745.505:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133745.506:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133745.506:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133745.507:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133745.507:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="C:\Users\Administrator\Downloads\Compressed\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=61810 --disable-gpu-shader-disk-cache run.py
+
+[1231/133907.624:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/133907.627:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/133907.627:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/133907.632:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/133907.632:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=58645 --disable-gpu-shader-disk-cache run.py
+
+[1231/134008.694:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/134008.696:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/134008.697:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/134008.698:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/134008.698:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=62182 --disable-gpu-shader-disk-cache run.py
+
+[1231/134147.137:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/134147.139:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/134147.139:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/134147.141:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/134147.141:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=54774 --disable-gpu-shader-disk-cache run.py
+
+[1231/134615.026:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/134615.027:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/134615.027:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/134615.028:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/134615.028:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=64795 --disable-gpu-shader-disk-cache run.py
+
+[1231/134901.425:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/134901.426:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/134901.426:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/134901.427:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/134901.427:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=53021 --disable-gpu-shader-disk-cache run.py
+
+[1231/135346.530:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/135346.530:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/135346.530:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/135346.530:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/135346.530:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=58197 --disable-gpu-shader-disk-cache run.py
+
+[1231/135408.089:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/135408.089:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/135408.089:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/135408.089:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/135408.089:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=65342 --disable-gpu-shader-disk-cache run.py
+
+[1231/135448.320:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/135448.320:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/135448.320:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/135448.330:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/135448.330:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=59419 --disable-gpu-shader-disk-cache run.py
+
+[1231/135746.088:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/135746.088:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/135746.088:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/135746.088:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/135746.088:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=50598 --disable-gpu-shader-disk-cache run.py
+
+[1231/135823.660:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/135823.660:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/135823.660:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/135823.660:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/135823.660:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=64248 --disable-gpu-shader-disk-cache run.py
+
+[1231/135845.902:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/135845.902:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/135845.902:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/135845.902:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/135845.902:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=56682 --disable-gpu-shader-disk-cache run.py
+
+[1231/140046.093:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/140046.093:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/140046.093:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/140046.093:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/140046.093:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=54973 --disable-gpu-shader-disk-cache run.py
+
+[1231/140229.121:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/140229.121:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/140229.121:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/140229.121:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/140229.121:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=58785 --disable-gpu-shader-disk-cache run.py
+
+[1231/140402.989:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/140402.989:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/140402.989:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/140402.989:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/140402.989:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=61651 --disable-gpu-shader-disk-cache run.py
+
+[1231/141122.579:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/141122.580:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/141122.580:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/141122.581:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/141122.581:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=61087 --disable-gpu-shader-disk-cache run.py
+
+[1231/142909.816:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/142909.817:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/142909.817:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/142909.818:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/142909.818:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=63421 --disable-gpu-shader-disk-cache run.py
+
+[1231/143107.219:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/143107.219:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/143107.219:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/143107.229:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/143107.229:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=50979 --disable-gpu-shader-disk-cache run.py
+
+[1231/143321.810:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/143321.810:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/143321.810:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/143321.810:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/143321.810:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=53433 --disable-gpu-shader-disk-cache run.py
+
+[1231/143541.506:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/143541.506:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/143541.506:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/143541.506:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/143541.506:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=57002 --disable-gpu-shader-disk-cache run.py
+
+[1231/143615.156:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/143615.157:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/143615.157:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/143615.158:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/143615.158:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=59318 --disable-gpu-shader-disk-cache run.py
+
+[1231/143811.488:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/143811.489:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/143811.490:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/143811.491:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/143811.491:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=60618 --disable-gpu-shader-disk-cache run.py
+
+[1231/143843.380:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/143843.381:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/143843.381:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/143843.382:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/143843.382:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=60299 --disable-gpu-shader-disk-cache run.py
+
+[1231/154555.620:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/154555.621:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/154555.621:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/154555.622:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/154555.622:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=49602 --disable-gpu-shader-disk-cache run.py
+
+[1231/155315.217:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/155315.217:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/155315.217:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/155315.217:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/155315.217:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=56704 --disable-gpu-shader-disk-cache run.py
+
+[1231/155600.030:INFO:cef_log.cpp(8)] [Browser process] Initialize() called
+
+[1231/155600.030:INFO:cef_log.cpp(8)] [Browser process] DEPRECATED: 'release_dcheck_enabled' setting
+
+[1231/155600.030:INFO:cef_log.cpp(8)] [Browser process] CefInitialize()
+
+[1231/155600.030:INFO:cef_log.cpp(8)] [Browser process] App_OnBeforeCommandLineProcessing_BrowserProcess()
+
+[1231/155600.030:INFO:cefpython_app.cpp(105)] [Browser process] Command line string for the browser process: python --browser-subprocess-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/subprocess" --no-sandbox --lang=en-US --log-file="D:\django2exe-dist\django2exe-dist\py-dist\debug.log" --log-severity=info --resources-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3" --locales-dir-path="D:\django2exe-dist\django2exe-dist\py-dist\python-2.7.10\lib\site-packages\cefpython3/locales" --remote-debugging-port=54576 --disable-gpu-shader-disk-cache run.py
+

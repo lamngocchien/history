@@ -1,0 +1,4 @@
+django==1.8.19
+cefpython3
+paramiko
+xlsxwrite
