@@ -54,8 +54,9 @@ SUIT_CONFIG = {
     'MENU': (
 
         # Keep original label and models
-        'sites',
 
+        {'label': 'Dashboard', 'icon':'icon-cog', 'url': '/'},
+        'sites',
         # Rename app and set icon
         {'app': 'auth', 'label': 'Authorization', 'icon':'icon-lock'},
 
