@@ -13,11 +13,17 @@ from polls.models import *
 from django.shortcuts import render
 
 
+def load_page(request, page_name):
+    page = 'templates/sb-admin/pages/%s.html' % page_name
+    page = get_templates_path(page)
+    logger.debug(page)
+    return render(request, page)
+
 # @custom_login_required
 def index(request):
     logger.debug("=================LOGIN=OK=================")
     # return HttpResponse("Hello, world. You're at the polls index.")
-    page = get_templates_path('templates/sb_admin/base.html')
+    page = get_templates_path('templates/sb-admin/base.html')
     # logger.debug(page)
     return render(request, page, {})
 
