@@ -25,7 +25,12 @@ SECRET_KEY = 'bfkeb55k$cau#+nwf_z4s7l1)r13rv=8rhb4uclxiznlvj=wt5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-DEBUG404 = True
+
+DEBUG404 = False
+if DEBUG:
+    DEBUG404 = False
+else:
+    DEBUG404 = True
 
 
 ALLOWED_HOSTS = ["127.0.0.1", "*"]
