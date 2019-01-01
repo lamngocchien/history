@@ -6,11 +6,11 @@ from django.shortcuts import render
 # Create your views here.
 import logging
 import json
+from .models import *
+from .forms import *
 logger = logging.getLogger(__name__)
 from django.http import HttpResponse
 from utils.filter import custom_login_required, get_templates_path
-from .models import *
-from .forms import *
 from django.shortcuts import render
 
 
