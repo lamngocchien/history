@@ -83,7 +83,7 @@ def file_upload(request):
         logger.debug("file: %s",file)
         path = file.temporary_file_path
         logger.debug("path: %s", path)
-        logger.debug(abc)
+        # logger.debug(abc)
     # page = 'sb-admin/pages/mypages/%s.html' % page_name
     page = get_templates_path('templates/sb-admin/pages/file_upload.html')
     logger.debug(page)
