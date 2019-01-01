@@ -32,6 +32,7 @@ else:
     # Import an installed package
     from cefpython3 import cefpython
 
+# import PyQt4
 from PyQt4 import QtGui
 from PyQt4 import QtCore
 
@@ -101,14 +102,25 @@ class MainWindow(QtGui.QMainWindow):
         super(MainWindow, self).__init__(None)
         #self.createMenu()
         self.mainFrame = MainFrame(self)
+        # self.center()
         self.setCentralWidget(self.mainFrame)
         self.setMinimumSize(min_width,min_height)
         if fullscreen_allowed == False and max_height != 0 and max_width != 0: 
             self.setMaximumSize(max_width,max_height)
+
         self.resize(initial_width, initial_height)
         self.setWindowTitle(window_title)
         self.setWindowIcon(QtGui.QIcon(icon_name))
         self.setFocusPolicy(QtCore.Qt.StrongFocus)
+        self.center()
+
+    def center(self):
+        frameGm = self.frameGeometry()
+        screen = QtGui.QApplication.desktop().screenNumber(QtGui.QApplication.desktop().cursor().pos())
+        centerPoint = QtGui.QApplication.desktop().screenGeometry(screen).center()
+        frameGm.moveCenter(centerPoint)
+        self.move(frameGm.topLeft())
+
 
     def createMenu(self):
         menubar = self.menuBar()
@@ -123,6 +135,7 @@ class MainWindow(QtGui.QMainWindow):
     def closeEvent(self, event):
         subprocess.call(['taskkill', '/F', '/T', '/PID', str(proc.pid)])
         self.mainFrame.browser.CloseBrowser()
+
 
 class MainFrame(QtGui.QWidget):
     browser = None
@@ -141,8 +154,6 @@ class MainFrame(QtGui.QWidget):
                 browserSettings={},
                 navigateUrl=GetApplicationPath("http://127.0.0.1:80"))
         self.show()
-
-
 
     def moveEvent(self, event):
         cefpython.WindowUtils.OnSize(int(self.winId()), 0, 0, 0)
