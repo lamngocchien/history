@@ -16,11 +16,11 @@
     {% if app_list %}
       {% for app in app_list %}
         <div class="module">
-          <table class="table-overview applist" summary="{% blocktrans with name=app.name %}Models available in the {{ name }} application.{% endblocktrans %}">
+          <table  class="table-overview applist" summary="{% blocktrans with name=app.name %}Models available in the {{ name }} application.{% endblocktrans %}">
             <caption><a href="{{ app.app_url }}" class="section">{% trans app.name %}</a></caption>
             {% for model in app.models %}
               <tr>
-                <th scope="row">{{ model.name }}</th>
+                <th style="min-width: 300px!important;" scope="row">{{ model.name }}</th>
                 {% if model.admin_url %}
                   <td>
                     <a href="{{ model.admin_url }}" class="changelink icon">{% trans 'Change' %}</a>
