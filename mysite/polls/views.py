@@ -22,7 +22,7 @@ def load_page(request, page_name):
 
 # @custom_login_required
 def index(request):
-    logger.debug("=================LOGIN=OK=================")
+    # logger.debug("=================LOGIN=OK=================")
     # return HttpResponse("Hello, world. You're at the polls index.")
     page = get_templates_path('templates/sb-admin/base.html')
     # logger.debug(page)
