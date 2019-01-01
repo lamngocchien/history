@@ -9,8 +9,8 @@ import json
 logger = logging.getLogger(__name__)
 from django.http import HttpResponse
 from utils.filter import custom_login_required, get_templates_path
-from polls.models import *
-from polls.forms import *
+from .models import *
+from .forms import *
 from django.shortcuts import render
 
 
