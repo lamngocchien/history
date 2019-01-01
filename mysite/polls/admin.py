@@ -2,7 +2,9 @@
 from __future__ import unicode_literals
 
 from django.contrib import admin
-
+admin.site.site_header = ('CorePyTool')
+admin.site.index_title = ('CorePyTool')
+admin.site.site_title = ('Welcome')
 # Unauth
 from django.contrib.auth.models import User, Group
 
@@ -40,18 +42,6 @@ FORMFIELD_FOR_DBFIELD_DEFAULTS.update({
     django_models.TimeField: {'widget': suit.widgets.SuitTimeWidget},
 })
 # End fix datetime for slect django-suit
-
-# Change AdminPage Name
-
-from django.contrib.admin import AdminSite
-class EventAdminSite(AdminSite):
-    site_header = "CorePyTool DATABASE"
-    site_title = "CorePyTool"
-    index_title = "Welcome"
-event_admin_site = EventAdminSite(name='event_admin')
-
-# End Change AdminPage Name
-
 
 
 # Register your models here.
