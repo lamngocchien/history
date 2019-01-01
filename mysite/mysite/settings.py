@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'bfkeb55k$cau#+nwf_z4s7l1)r13rv=8rhb4uclxiznlvj=wt5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 DEBUG404 = False
 if DEBUG:
@@ -32,7 +32,8 @@ if DEBUG:
 else:
     DEBUG404 = True
 
-WINDOWS_APPLICATION = True
+RUN_ON_WINDOWS_OS = True #For django running in Windows
+WINDOWS_APPLICATION_UNAUTH = True # For Skip auth to login django/admin
 
 ALLOWED_HOSTS = ["127.0.0.1", "*"]
 

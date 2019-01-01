@@ -45,8 +45,8 @@ def login_success(f):
 def get_templates_path(page):
     import os
     from django.conf import settings
-    logger.debug( "settings.WINDOWS_APPLICATION: %s",settings.WINDOWS_APPLICATION)
-    if settings.WINDOWS_APPLICATION:
+    logger.debug( "settings.RUN_ON_WINDOWS_OS: %s",settings.RUN_ON_WINDOWS_OS)
+    if settings.RUN_ON_WINDOWS_OS:
 
         # import json
         # config_file_path = os.path.abspath(os.path.join(os.path.dirname(__file__),'..', '..', 'config', 'config.json'))
@@ -62,5 +62,5 @@ def get_templates_path(page):
         path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
         path = path.replace('\\', '/') + '/' + page
     else:
-        path = ''
+        path = page
     return path
