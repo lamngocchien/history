@@ -45,11 +45,10 @@ INSTALLED_APPS = [
 
 ]
 
-from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
-
-TEMPLATE_CONTEXT_PROCESSORS = TCP + (
-    'django.core.context_processors.request',
-)
+# from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS as TCP
+# TEMPLATE_CONTEXT_PROCESSORS = TCP + (
+#     'django.core.context_processors.request',
+# )
 
 
 # Django Suit configuration example
@@ -72,15 +71,6 @@ SUIT_CONFIG = {
 
     )
 }
-# MIDDLEWARE = [
-#     'django.middleware.security.SecurityMiddleware',
-#     'django.contrib.sessions.middleware.SessionMiddleware',
-#     'django.middleware.common.CommonMiddleware',
-#     'django.middleware.csrf.CsrfViewMiddleware',
-#     'django.contrib.auth.middleware.AuthenticationMiddleware',
-#     'django.contrib.messages.middleware.MessageMiddleware',
-#     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-# ]
 
 FILE_UPLOAD_HANDLERS = ['django.core.files.uploadhandler.TemporaryFileUploadHandler']
 
@@ -97,6 +87,7 @@ MIDDLEWARE_CLASSES = [
 ROOT_URLCONF = 'mysite.urls'
 
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -107,6 +98,7 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.core.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -228,7 +220,6 @@ LOGGING = {
     }
 }
 
-
-# DEBUG_TEMPLATE = True
+# DEBUG_TEMPLATE = False
 # for i in range(0, len(TEMPLATES) - 1):
 #     TEMPLATES[i]['OPTIONS']['debug'] = DEBUG_TEMPLATE
