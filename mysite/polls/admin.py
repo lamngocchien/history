@@ -8,7 +8,7 @@ admin.site.site_title = ('Welcome')
 # Unauth
 
 from django.conf import settings
-if settings.WINDOWS_APPLICATION:
+if settings.WINDOWS_APPLICATION_UNAUTH:
     from django.contrib.auth.models import User, Group
     # We add this so no authentication is needed when entering the admin site
     class AccessUser(object):
