@@ -64,7 +64,7 @@ SUIT_CONFIG = {
 
         # Keep original label and models
 
-        {'label': 'Dashboard', 'icon':'icon-cog', 'url': '/'},
+        {'label': 'CorePyTool', 'icon':'icon-cog', 'url': '/'},
         # 'sites',
         # Rename app and set icon
         {'app': 'auth', 'label': 'Authorization', 'icon':'icon-lock'},
