@@ -25,6 +25,33 @@ except User.DoesNotExist:
 
 # Unauth
 
+# Fix datetime for slect django-suit
+from django.db import models as django_models
+from django import forms
+from django.contrib.admin.options import FORMFIELD_FOR_DBFIELD_DEFAULTS
+import suit.widgets
+
+FORMFIELD_FOR_DBFIELD_DEFAULTS.update({
+    django_models.DateTimeField: {
+        'form_class': forms.SplitDateTimeField,
+        'widget': suit.widgets.SuitSplitDateTimeWidget
+    },
+    django_models.DateField: {'widget': suit.widgets.SuitDateWidget},
+    django_models.TimeField: {'widget': suit.widgets.SuitTimeWidget},
+})
+# End fix datetime for slect django-suit
+
+# Change AdminPage Name
+
+from django.contrib.admin import AdminSite
+class EventAdminSite(AdminSite):
+    site_header = "CorePyTool DATABASE"
+    site_title = "CorePyTool"
+    index_title = "Welcome"
+event_admin_site = EventAdminSite(name='event_admin')
+
+# End Change AdminPage Name
+
 
 
 # Register your models here.
@@ -39,7 +66,10 @@ class ChoiceInline(admin.TabularInline):
 class QuestionAdmin(admin.ModelAdmin):
     fieldsets = [
         (None,               {'fields': ['question_text']}),
-        ('Date information', {'fields': ['pub_date'], 'classes': ['collapse']}),
+        ('Date information', {
+            'fields': ['pub_date'],
+            # 'classes': ['collapse']
+        }),
     ]
     list_display = ('question_text', 'pub_date', 'was_published_recently')
     inlines = [ChoiceInline]
