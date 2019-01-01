@@ -45,7 +45,7 @@ def login_success(f):
 def get_templates_path(page):
     import os
     from django.conf import settings
-    logger.debug( "settings.RUN_ON_WINDOWS_OS: %s",settings.RUN_ON_WINDOWS_OS)
+    # logger.debug( "settings.RUN_ON_WINDOWS_OS: %s",settings.RUN_ON_WINDOWS_OS)
     if settings.RUN_ON_WINDOWS_OS:
 
         # import json
