@@ -6,24 +6,25 @@ admin.site.site_header = ('CorePyTool')
 admin.site.index_title = ('CorePyTool')
 admin.site.site_title = ('Welcome')
 # Unauth
-from django.contrib.auth.models import User, Group
 
+from django.conf import settings
+if settings.WINDOWS_APPLICATION:
+    from django.contrib.auth.models import User, Group
+    # We add this so no authentication is needed when entering the admin site
+    class AccessUser(object):
+        has_module_perms = has_perm = __getattr__ = lambda s,*a,**kw: True
 
-# We add this so no authentication is needed when entering the admin site
-class AccessUser(object):
-    has_module_perms = has_perm = __getattr__ = lambda s,*a,**kw: True
+    admin.site.has_permission = lambda r: setattr(r, 'user', AccessUser()) or True
 
-admin.site.has_permission = lambda r: setattr(r, 'user', AccessUser()) or True
+    # We add this to remove the user/group admin in the admin site as there is no user authentication
+    admin.site.unregister(User)
+    admin.site.unregister(Group)
 
-# We add this to remove the user/group admin in the admin site as there is no user authentication
-admin.site.unregister(User)
-admin.site.unregister(Group)
-
-# Create superuser for admin use in case it doesn't exist
-try:
-    User.objects.get_by_natural_key('admin')
-except User.DoesNotExist:
-    User.objects.create_superuser('admin', 'admin@admin.com', 'admin')
+    # Create superuser for admin use in case it doesn't exist
+    try:
+        User.objects.get_by_natural_key('admin')
+    except User.DoesNotExist:
+        User.objects.create_superuser('admin', 'admin@admin.com', 'admin')
 
 # Unauth
 

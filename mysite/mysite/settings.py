@@ -32,6 +32,7 @@ if DEBUG:
 else:
     DEBUG404 = True
 
+WINDOWS_APPLICATION = True
 
 ALLOWED_HOSTS = ["127.0.0.1", "*"]
 
