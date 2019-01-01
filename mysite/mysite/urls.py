@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 
-from django.conf.urls import include, url
+from django.conf.urls import include, url, patterns
 from django.contrib import admin
 
 # class AccessUser:
@@ -29,3 +29,13 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # url(r'^$', views.home,),
 ]
+
+from django.conf import settings
+import os
+if settings.DEBUG404:
+    urlpatterns += \
+        patterns(
+            '',
+            (r'^static/(?P<path>.*)$', 'django.views.static.serve',
+             {'document_root': os.path.join(os.path.dirname(__file__),'..', 'static')}),
+        )

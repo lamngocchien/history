@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 from django.http import HttpResponse
 from utils.filter import custom_login_required, get_templates_path
 from polls.models import *
+from polls.forms import *
 from django.shortcuts import render
 
 
@@ -71,3 +72,21 @@ def highchart(request):
 
 
 # fp = open(unicode(path2, "utf-8"))
+
+def file_upload(request):
+
+    if request.method == 'POST':
+        logger.debug("request.POST: %s",request.POST)
+        form = FileIUploadForm(request.POST)
+        logger.debug(form)
+        file = request.FILES['file']
+        logger.debug("file: %s",file)
+        path = file.temporary_file_path
+        logger.debug("path: %s", path)
+        logger.debug(abc)
+    # page = 'sb-admin/pages/mypages/%s.html' % page_name
+    page = get_templates_path('templates/sb-admin/pages/file_upload.html')
+    logger.debug(page)
+    form = FileIUploadForm()
+
+    return render(request, page, {'form': form})
